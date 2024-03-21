@@ -13,16 +13,7 @@ def encode(password):
 
 # Function to decode the password
 def decode(encoded_password):
-    decoded_password = ""  # We'll store the decoded password here
-
-    # Loop through each digit in the encoded password
-    for digit in encoded_password:
-        # Convert the digit to a number, subtract 3, handle negative numbers, and ensure it's a single digit
-        decoded_digit = (int(digit) - 3 + 10) % 10
-        # Add the decoded digit to the decoded password
-        decoded_password += str(decoded_digit)
-
-    return decoded_password
+    pass
 
 # Main function to drive the program
 def main():
