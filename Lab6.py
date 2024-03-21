@@ -1,5 +1,6 @@
+# Defines a function to encode a password
 def encode(password):
-    encoded_password = ""  # We'll store the encoded password here
+    encoded_password = ""  # Store the encoded password here
 
     # Loop through each digit in the password
     for digit in password:
